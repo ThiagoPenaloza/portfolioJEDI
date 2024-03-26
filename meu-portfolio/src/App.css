@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: aliceblue;
+}
+
+.background {
+
+  width: 90%;
+  height: 700px;
+  border-radius: 24px;
+  border: dotted blue 3px;
+  padding: 60px;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to bottom, #007bff, #ffffff)
+}
+
+.card {
+  background: rgb(58, 58, 166);
+  color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 11px 7px 33px #000;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardName {
+  background: rgb(58, 58, 166);
+  color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 11px 7px 33px #000;
+  width: 70%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#personalPhoto {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  box-shadow: 11px 7px 33px #000;
+  margin-bottom: 15px;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skillComp {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.checkImage {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.skillImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-left: 10px;
+}
+
+#skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#skillsJuntas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#htmlImage {
+  margin-left: 35px;
+}
